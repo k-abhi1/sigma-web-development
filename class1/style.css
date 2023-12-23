@@ -1,6 +1,14 @@
 body{
     background-color: rgb(189, 230, 173);
 }
+p{
+    color: navy;
+    margin-left: 20px;
+    text-align: center;
+    
+
+
+}
 h1{
     color: navy;
     margin-left: 20px;
