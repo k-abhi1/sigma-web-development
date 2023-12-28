@@ -1,0 +1,1 @@
+alert("welcome to sigms web devlopment cours");
