@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAVGIACTION BAR</title>
+
+    <style>
+        body:before {
+            content: "";
+            position: absolute;
+            inset: 40% -60% 0 -60%;
+            opacity: 0.3;
+            pointer-events: none;
+
+        }
+
+        nav {
+            position: relative;
+            z-index: 1;
+        }
+
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            gap: 40px;
+        }
+
+        nav.before .active element {
+            transform: rotateY(180deg)
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="active">
+                <button>HOME</button>
+
+            </li>
+            <li>
+                <button>BLOGS</button>
+
+            </li>
+            <li>
+                <button>SERVICES</button>
+
+            </li>
+            <li>
+                <button>CONTACT</button>
+
+            </li>
+            <li>
+                <button>A BOUT</button>
+
+            </li>
+        </ul>
+    </nav>
+
+</body>
+
+</html>
