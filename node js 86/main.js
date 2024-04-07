@@ -11,6 +11,8 @@
   
 //   });
 
-const a = require("./mymodule2.js")
+// const a = require("./mymodule2.js")
 
-console.log(a, __dirname, __filename)
+// console.log(a, __dirname, __filename)
+
+console.log("This is index.js");
