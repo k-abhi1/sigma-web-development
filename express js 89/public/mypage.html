@@ -7,6 +7,7 @@
 </head>
 <body>
     <script>
+        consol.log("hello wold");
         async function testPost(){
             let a = await fetch("/", {method: "PUT"})
             let b = await a.text()
