@@ -1,6 +1,6 @@
 // You have to write a Node.js program to clear clutter inside of a directory and organize the contents of that directory into different folders
 
-// for example, these files become:
+// for example, these files become:  
 
 // 1. name.jpg
 // 2. name.png
