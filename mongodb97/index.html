@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generate Dummy Data</title>
+  <style>
+    *{
+        margin: 0;
+        padding: 0;
+
+    }
+    body{
+        background-color: #f1f1f1;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    #generateButton{
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <button id="generateButton">Generate Data</button>
+  <script>
+    document.getElementById('generateButton').addEventListener('click', async () => {
+      await fetch('/generate-data', { method: 'GET' });
+      alert('Data generated successfully!');
+    });
+  </script>
+</body>
+</html>
