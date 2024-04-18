@@ -1,0 +1,30 @@
+.cont {
+    margin: auto;
+    height: 100px;
+    width: 70vw;
+    border: 2px solid black;
+    display: flex;
+    margin-top: 50vh;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+img {
+    height: 100px;
+    width: 200px;
+    border-radius: 5px;
+
+}
+.hii{
+    margin-left: 20px;
+ 
+}
+.hii :nth-child(1)
+{
+    font-size: larger;
+    margin-top: 5px;
+  
+}
+.hii :nth-child(2)
+{
+}
