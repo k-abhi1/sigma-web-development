@@ -1,7 +1,55 @@
 # sigma-web-development
 Web development, also known as website development, refers to the tasks associated with creating, building, and maintaining websites and web applications that run online on a browser.
 ```
-#basics command in linux
+LINUX BASICS COMMAND
+```
+1. `cd`: Change directory. Used to navigate through the file system. 
+Example: `cd /home`
+2. `ls`: List files and directories. Example: `ls -l`
+3. `mkdir`: Create a new directory. Example: `mkdir mydirectory`
+4. `rm`: Remove a file or directory. Example: `rm myfile`
+5. `cp`: Copy a file. Example: `cp file.txt newlocation`
+6. `mv`: Move or rename a file. Example: `mv oldfile newlocation`
+7. `echo`: Output text to the terminal. Example: `echo "Hello World!"`
+8. `cat`: Display the contents of a file. Example: `cat file.txt`
+9. `nano`: A simple text editor. Example: `nano myfile`
+10. `pwd`: Print the current working directory. Example: `pwd`
+11. `man`: Display the manual for a command. Example: `man ls`
+12. `chmod`: Change file mode (permissions). Example: `chmod 755 myfile`
+13. `chown`: Change file ownership. Example: `chown user:group myfile`
+14. `find`: Search for files based on various criteria. Example: `find 
+/home -name "myfile"`
+15. `grep`: Search for a pattern in one or more files. Example: `grep 
+"pattern" file1 file2 ...`
+16. `sort`: Sort lines of text. Example: `sort -n file.txt`
+17. `uniq`: Display only the unique lines of text. Example: `uniq 
+file.txt`
+18. `head`: Display the first few lines of a file. Example: 
+`head -5 file.txt`
+19. `tail`: Display the last few lines of a file. Example: `tail -5 
+file.txt`
+20. `cat >`: Output the contents of a file to the terminal, overwriting 
+any existing content. Example: `cat > myfile`
+21. `rmdir`: Remove an empty directory. Example: `rmdir mydirectory`
+22. `touch`: Create a new empty file. Example: `touch myfile`
+23. `curl`: Transfer data from a server to the local machine. Example: 
+`curl https://example.com`
+24. `wget`: Download files from the internet. Example: `wget 
+https://example.com/file.txt`
+25. `ssh`: Connect to a remote machine using the secure shell. Example: 
+`ssh user@remotemachine`
+26. `scp`: Transfer files between machines using the secure copy protocol.
+Example: `scp file.txt user@remotemachine:/home/user/`
+27. `sftp`: Transfer files between machines using the secure file transfer
+protocol. Example: `sftp user@remotemachine /home/user/file.txt`
+28. `ssh-keyscan`: Display the contents of a SSH key. Example: 
+`ssh-keyscan -t rsa user@remotemachine`
+29. `chroot`: Change the root directory of a process. Example: `chroot 
+/newroot /bin/bash`
+30. `su`: Switch to another user or run a command as another user. 
+Example: `su user`
+
+<!-- ```#basics command in linux
 ```
 1. `ls`: Lists the contents of the current directory. Example: `ls -l` to 
 list files in a detailed format.
@@ -175,4 +223,4 @@ Check the details of the file system
  wc
  ``` 
 command in Linux
-Check the lines, word count, and characters in a file using different options
+Check the lines, word count, and characters in a file using different options -->
