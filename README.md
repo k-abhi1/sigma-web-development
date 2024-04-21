@@ -43,3 +43,136 @@ find the file "MyFile.txt" in the directory "/path".
 15. `bash`: The Bourne-Again SHell is a popular shell for Linux and macOS.
 It provides a powerful command line interface and supports scripting with 
 Bash scripts.
+  
+ ``` 
+
+command in Linux
+
+ ```
+ ```
+ls
+```
+1.Displays information about files in the current directory.
+
+```
+pwd 
+```
+command in Linux
+Displays the current working directory.
+ ```
+ mkdir
+ ``` 
+ command in Linux
+Creates a directory.
+ ```
+ cd
+ ```
+  command in Linux
+To navigate between different folders.
+ ```
+ rmdir
+ ```
+  command in Linux
+Removes empty directories from the directory lists.
+ ```
+ cp
+ ```
+  command in Linux
+Moves files from one directory to another.
+ ```
+ mv
+  ```
+  command in Linux
+Rename and Replace the files
+```
+ rm
+  ```
+  command in Linux
+Delete files
+ ```
+ uname
+ ```
+  command in Linux
+Command to get basic information about the OS
+ ```
+ locate
+ ```
+  command in Linux
+Find a file in the database.
+ ```
+ touch
+ ```
+  command in Linux
+Create empty files
+ ```
+ ln
+ ```
+  command in Linux
+Create shortcuts to other files
+ ```
+ cat
+ ```
+  command in Linux
+Display file contents on terminal
+ ```
+ clear
+ ```
+  command in Linux
+Clear terminal 
+ ```
+ ps
+ ``` 
+ command in Linux
+Display the processes in terminal
+```
+man
+```
+ command in Linux
+Access manual for all Linux commands
+ ```
+ grep
+ ```
+  command in Linux
+Search for a specific string in an output
+ ```
+ echo
+  ```
+  command in Linux
+Display active processes on the terminal
+ ```
+ wget
+ ```
+  command in Linux
+download files from the internet.
+ ```
+ whoami
+ ``` 
+ command in Linux
+Create or update passwords for existing users
+ ```
+ sort
+ ```
+  command in Linux
+sort the file content
+ ```
+ cal
+  ```
+   command in Linux
+View Calendar in terminal
+ ```
+ whereis
+ ```
+  command in Linux
+View the exact location of any command typed after this command
+
+```
+df
+```
+ command in Linux
+Check the details of the file system
+
+ ```
+ wc
+ ``` 
+command in Linux
+Check the lines, word count, and characters in a file using different options
